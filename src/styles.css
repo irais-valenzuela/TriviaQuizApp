@@ -1,0 +1,134 @@
+.landing-page {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.landing-page h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing-page button {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 25px;
+  background-color: orange;
+}
+
+.landing-page button:hover {
+  background-color: lightcoral;
+}
+
+.quiz-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.incorrect-button {
+  background-color: palevioletred;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  padding: 1rem;
+  border: 1px white solid;
+  color: white;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.incorrect-button:hover {
+  background-color: plum;
+}
+
+.disabled {
+  background-color: gray;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  padding: 1rem;
+  border: 1px white solid;
+  color: white;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.correct-answer {
+  background-color: palevioletred;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: white;
+  font-family: Verdana;
+  width: 50%;
+  border: 1px white solid;
+  font-size: 18px;
+  text-align: center;
+}
+
+.correct-answer-div {
+  display: flex;
+  justify-content: center;
+}
+
+.correct-answer:hover {
+  background-color: pink;
+}
+
+.quiz-question {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 21px;
+  margin: 1.5rem;
+}
+
+.next-button {
+  display: flex;
+  justify-content: center;
+}
+
+.next-button button {
+  border-radius: 15px;
+  background-color: greenyellow;
+  padding: 0.5rem;
+}
+
+.quiz-feedback {
+  text-align: center;
+  font-family: Verdana;
+}
+
+.score {
+  text-align: center;
+}
+
+.summary-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summary-div h1 {
+  font-family: Verdana;
+}
+
+.summary-div button {
+  background-color: red;
+  padding: 0.5rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.incorrect-answers {
+  font-weight: bold;
+  color: red;
+}
+
+.correct-answers {
+  font-weight: bold;
+  color: green;
+}
